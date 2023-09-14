@@ -1,0 +1,15 @@
+.home-container {
+    display: flex;
+    min-height: 85vh;
+  }
+  
+  .home-content {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+  }
+  
+  .sidebar {
+    width: 20%; 
+  }
+  

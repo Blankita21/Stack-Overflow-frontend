@@ -1,0 +1,168 @@
+/* Add proper gap between elements and alignments */
+
+.main {
+  margin-left: 20px; /* Adjust the value to your desired margin size */
+}
+
+.main-desc {
+  display: flex;
+  width: 100%;
+  justify-content: space-between; /* Align items at the start and end */
+  margin-top: 20px; /* Add margin to create gap from above */
+  padding: 10px 0; /* Add padding for spacing */
+  border-top: 1px solid #eee; /* Add a top border for separation */
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  font-size: small;
+}
+
+.info > p {
+  color: rgba(58, 57, 57, 0.4);
+  margin: 0 10px;
+}
+
+.info > p > span {
+  color: rgba(69, 67, 67, 0.8);
+  margin: 0 5px;
+}
+
+/* Styles for main-top (question title) */
+.main-top {
+  margin-top: 20px; /* Add margin to create gap from above */
+}
+
+.main-question {
+  font-size: 1.5rem; /* Increase font size for the question title */
+  margin: 0; /* Reset margin to avoid extra spacing */
+  color: #333; /* Slightly greyer color for the question title */
+}
+
+/* Styles for all-questions-container */
+.all-questions-container {
+  margin-top: 20px; /* Add margin to create gap between answer sections */
+  border-top: 1px solid #eee; /* Add a top border for separation */
+  display: flex; /* Make it a flex container */
+  align-items: flex-start; /* Align items at the start */
+}
+
+/* Add left margin to question-answer */
+.question-answer {
+  margin-top: 20px;
+  flex-grow: 2; /* Allow question-answer to grow and take available space */
+  margin-left: 20px; /* Add left margin to create space between all-options and question-answer */
+}
+
+/* Styles for comments */
+.comments {
+  margin-top: 20px; /* Add margin to create gap between comments and Add comment link */
+}
+
+/* Styles for Add comment link */
+.comments > p {
+  cursor: pointer;
+  color: #0077cc; /* Change text color to a clickable blue */
+  margin-top: 10px; /* Add margin to separate from comments */
+}
+
+.blubtn {
+  background-color: #0077cc;
+  color: #fff;
+  padding: 7px 16px;
+  font-size: 16px;
+  text-decoration: none; /* Remove underlines from the Link component */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+/* Styles for comment input and button */
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 10px; /* Add margin to separate from Add comment link */
+}
+
+.title textarea {
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid rgba(60, 60, 60, 0.2);
+  border-radius: 3px;
+  outline: none;
+  width: 100%; /* Make the textarea fill the container width */
+}
+
+.title button {
+  max-width: fit-content;
+  margin-top: 10px; /* Add margin between textarea and button */
+  background-color: #007bff; /* Change button background color to blue */
+  color: #fff; /* Change button text color to white */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.title button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Styles for all-options (make them bigger and greyer) */
+.all-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items vertically */
+}
+
+.arrow {
+  font-size: 1.5rem; /* Increase arrow size */
+  color: rgba(58, 57, 57, 0.5); /* Slightly greyer color */
+  margin: 5px 0; /* Add margin between arrows */
+}
+
+/* Edit Button Style */
+.edit-button {
+  background: none; /* No background color */
+  border: none; /* No border */
+  color: #3498db; /* Default text color */
+  cursor: pointer;
+  transition: color 0.3s ease; /* Smooth text color transition on hover */
+  margin: 20px;
+}
+
+.edit-button:hover {
+  color: #2980b9; /* Change text color on hover */
+}
+
+/* Save Button Style */
+.save-button {
+  background: none; /* No background color */
+  border: none; /* No border */
+  color: #27ae60; /* Default text color */
+  cursor: pointer;
+  transition: color 0.3s ease; 
+  margin: 20px;
+}
+
+.save-button:hover {
+  color: #219d54; /* Change text color on hover */
+}
+
+.btnblu {
+  background-color: #0077cc;
+  color: #fff;
+  padding: 1000px 20px;
+  font-size: 16px;
+  text-decoration: none; /* Remove underlines from the Link component */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  display: inline-block; 
+}
